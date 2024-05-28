@@ -2,6 +2,7 @@
     padding: 100px 100px;
     display: flex;
     height: 80vh;
+    box-shadow: 0px 10px 8px 1px #cccccc2c;
 }
 .center-left{
     display: flex;
@@ -12,8 +13,8 @@
     font-size: 90px;
     font-weight: 600;
 }
-.onda img{
-    transform: rotate(90deg);
+.arya img{
+    width: 170px;
 }
 
 .nome-logo{
@@ -24,11 +25,13 @@
 
 
 .center-rigth{
+    align-items: center;
     display: flex;
     width: 50%;
+    padding: 0 80px;
 }
 .center-rigth .mocap img{
-    width: 700px;
+    width: 600px;
     
 }
 

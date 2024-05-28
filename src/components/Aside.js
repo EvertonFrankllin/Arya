@@ -1,8 +1,9 @@
 import React from 'react';
 //import Footer from './components/Footer';
 import "./Aside.css";
-import ONDA from '../img/ONDA.svg';
-import MOCAP from '../img/Mocap imagens.webp';
+import ARYA from '../img/ARYA_LOGO.png';
+import MOCAP from '../img/mocap-grafico.jpg';
+
 
 const Aside = () => {
   return (
@@ -10,7 +11,7 @@ const Aside = () => {
             <section className="center-left">
                 <div className='nome-logo'>
                     <h1>Arya</h1>
-                    <div className='onda'><img src={ONDA} alt='IMAGEM DE ONDA'></img></div>
+                    <div className='arya'><img src={ARYA} alt='IMAGEM DE ONDA'></img></div>
                 </div>
 
                     <div className='demonstracao'>

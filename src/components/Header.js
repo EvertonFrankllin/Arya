@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Header.css";
-import ARYA_LOGO from '../img/ARYA_LOGO.jpg';
+import ARYA_LOGO from '../img/ARYA_LOGO.png';
 
 function handleClick(e) {
   e.preventDefault();

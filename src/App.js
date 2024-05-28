@@ -13,7 +13,6 @@ function App() {
     <div className="App">
       <Header />
       <Aside />
-      <Footer />
       <Section />
       <Contato />
       <Footer />
