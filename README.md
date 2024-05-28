@@ -1,3 +1,16 @@
+# Projéto Arya
+Uma IA desenvolvida para auxiliar empresas na sua gestão de negócios, gestão de pessoas e automação de tarefas.
+
+### Pocesso inicial
+
+![image](https://github.com/EvertonFrankllin/Arya/assets/98755634/50c29dea-96e3-420f-82ec-f1e92b9b7b65)
+
+Nossa IA é pensada com o intúito de facilitar a vida das empresas de modo geral, podendo ter o seu uso personalizado para cada caso e para cada empresa.
+
+Totalmente focada em resultados, essa poderosa ferramenta vai alavancar ainda mais seus processos, seja ele qual for, visite sosso site e confira nosso modelo.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
