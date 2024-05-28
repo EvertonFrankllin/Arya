@@ -9,6 +9,15 @@ Nossa IA é pensada com o intúito de facilitar a vida das empresas de modo gera
 
 Totalmente focada em resultados, essa poderosa ferramenta vai alavancar ainda mais seus processos, seja ele qual for, visite sosso site e confira nosso modelo.
 
+https://arya-six.vercel.app/
+
+
+© Arya 2024. Todos os direitos reservados.
+
+
+
+
+
 
 
 # Getting Started with Create React App
