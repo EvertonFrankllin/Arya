@@ -1,0 +1,64 @@
+.contato{
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 100px;
+    
+}
+
+.talk-me{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.talk-me h3{
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.form{
+    display: flex;
+    width: 70%;
+}
+
+.formulario{
+    margin: 0 auto;
+    align-items: left;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.formulario input{
+    border: 1px solid #cccccc62;
+    outline: none;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.formulario textarea{
+    border: 1px solid #cccccc62;
+    outline: none;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 20px;
+    width: 400px;
+    resize: vertical;
+}
+
+button.btn-send{
+    padding: 10px;
+    width: 100px;
+    border-radius: 14px;
+    border: 1px solid #cccccc62;
+    background-color: #38b6ff;
+    background: linear-gradient(90deg,  rgb(56, 182, 255), rgb(14, 152, 233));
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+button.btn-send:hover{
+    background: linear-gradient(90deg,rgb(14, 152, 233), rgb(56, 182, 255) );
+}
+

@@ -1,0 +1,63 @@
+.center{
+    padding: 100px 100px;
+    display: flex;
+    height: 80vh;
+}
+.center-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.center-left h1{
+    font-size: 90px;
+    font-weight: 600;
+}
+.onda img{
+    transform: rotate(90deg);
+}
+
+.nome-logo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.center-rigth{
+    display: flex;
+    width: 50%;
+}
+.center-rigth .mocap img{
+    width: 700px;
+    
+}
+
+.demonstracao h3{
+    margin: 0;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.demonstracao p{
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.btn-agenda{
+    outline: none;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+button.btn-agenda{
+    cursor: pointer;
+    width: 230px;
+    border-radius: 50px;
+    background-color: #38b6ff;
+    color: #fff;
+}
+
