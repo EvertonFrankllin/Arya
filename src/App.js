@@ -5,7 +5,9 @@ import Header from './components/Header';
 import Aside from './components/Aside';
 import Footer from './components/Footer';
 import Section from './components/Section';
+import WhyArya from './components/whyArya';
 import Contato from './components/Contato';
+
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
       <Header />
       <Aside />
       <Section />
+      <WhyArya />
       <Contato />
       <Footer />
     </div>

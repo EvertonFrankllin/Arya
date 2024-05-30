@@ -1,0 +1,58 @@
+.reason{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    justify-content: center;
+    padding: 50px 40px;
+    box-shadow: 0px 10px 8px 1px #cccccc2c;
+    width: 70%;
+    color: #000000;
+}
+.reason h2{
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.grid-motivo{
+    display: grid;
+    grid-template-columns: repeat(2, 10fr);
+}
+
+/*Motivo*/
+
+.motivo{
+    background-color: #bfc2c836;
+    display: flex;
+    padding: 50px 10px;
+    margin: 10px;
+}
+
+/*Number*/
+.number{
+    padding: 5px;
+}
+.number h1{
+    font-weight: normal;
+    font-style: normal;
+    color: #262420;
+    font-size: 130px;
+}
+
+/*Text-motivo*/
+
+.text-motivo{
+    padding: 20px;
+}
+.text-motivo h3{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    padding-bottom: 20px ;
+}
+.text-motivo p{
+    font-size: 18px;
+}
+

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contato.css';
+import Button from './Button';
 
 const Contato = () => {
   return (
@@ -11,13 +12,12 @@ const Contato = () => {
         </div>
 
         <div className='form'>
-            <form className='formulario'>
-                <input type='text' placeholder='Seu nome...'></input>
-                <input type='email' placeholder='Seu Email...' required pattern="[^@]+@[^@]+\.[a-zA-Z]{2,}"></input>
-                <textarea  placeholder='Digite sua Menságem'></textarea>
-                <button className='btn-send'>Enviar</button>
-            </form>
-            
+          <form className='formulario' method="POST" action="/submit-form">
+              <input type='text' name="name" placeholder='Seu nome...'></input>
+              <input type='email' name="email" placeholder='Seu Email...' required pattern="[^@]+@[^@]+\.[a-zA-Z]{2,}"></input>
+              <textarea name="message" placeholder='Digite sua Menságem'></textarea>
+              <Button type="submit" className={'btn-send'}>Enviar</Button>
+          </form>
         </div>
 
     </section>

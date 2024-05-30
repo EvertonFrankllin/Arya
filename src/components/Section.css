@@ -29,4 +29,22 @@
     font-size: 18px;
 }
 
+.btn-button{
+    cursor: pointer;
+    
+    border-radius: 50px;
+    background:linear-gradient(90deg,  #38b6ff ,rgb(25, 171, 255));
+    color: #fff;
+    outline: none;
+    padding: 14px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.btn-button:hover{
+    border: 1px solid  #0000001f;
+    transform: scale(1.1);
+    background: linear-gradient(90deg, rgb(43, 177, 255), rgb(56, 182, 255) );
+}
 

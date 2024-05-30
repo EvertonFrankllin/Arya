@@ -1,13 +1,22 @@
 .header {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 80px;
+    padding: 5px 80px;
+    position: fixed;
 }
 
 .header .logo {
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
+    background-color: transparent;
+}
+
+.logo:hover{
+    transform: scale(1.1);
 }
 
 
@@ -28,6 +37,10 @@
     font-weight: bold;
 }
 
+.header .nav-list li a:hover {
+    color: #000;
+}
+
 .btn-login{
     outline: none;
     padding: 10px;
@@ -41,6 +54,10 @@ button.btn-login {
     border-radius: 50px;
     background-color: #38b6ff;
     color: #fff;
+}
+
+.btn-login:hover{
+    transform:scale(1.1);
 }
 
 

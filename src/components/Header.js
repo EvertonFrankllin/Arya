@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Header.css";
-import ARYA_LOGO from '../img/ARYA_LOGO.png';
+import ARYA_LOGO from '../img/ARYA_LOGO.svg';
+import Button from './Button';
 
 function handleClick(e) {
   e.preventDefault();
@@ -23,7 +24,7 @@ const Header = () => {
             <li><a href="#home"onClick={handleClick}>Inicio</a></li>
             <li><a href="#servicos" onClick={handleClick}>Serviços</a></li>
             <li><a href="#contato" onClick={handleClick}>Contatos</a></li>
-            <li><a href="#login"><button className='btn-login' >Login</button></a></li>
+            <li><a href="#login"><Button className={'btn-login'} >Login</Button></a></li>
         </ul>
     
     </header>

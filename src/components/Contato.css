@@ -52,13 +52,14 @@ button.btn-send{
     border-radius: 14px;
     border: 1px solid #cccccc62;
     background-color: #38b6ff;
-    background: linear-gradient(90deg,  rgb(56, 182, 255), rgb(14, 152, 233));
+    background:linear-gradient(90deg,  #38b6ff ,rgb(25, 171, 255));
     color: #fff;
     outline: none;
     cursor: pointer;
     font-size: 16px;
 }
 button.btn-send:hover{
-    background: linear-gradient(90deg,rgb(14, 152, 233), rgb(56, 182, 255) );
+    transform: scale(1.1);
+    background: linear-gradient(90deg, rgb(43, 177, 255), rgb(56, 182, 255) );
 }
 
