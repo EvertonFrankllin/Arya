@@ -2,7 +2,7 @@ import React from 'react';
 //import Footer from './components/Footer';
 import "./Aside.css";
 import ARYA from '../img/ARYA_LOGO.png';
-import MOCAP from '../img/mocap-tela.webp';
+import MOCAP from '../img/mocap-oficial.jpg';
 import Button from './Button';
 
 
