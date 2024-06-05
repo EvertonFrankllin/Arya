@@ -17,15 +17,20 @@ const Section = () => {
         </div>
 
         <div className='paragrafo'>
-        <p>
-            Nossa ferramenta foca na análise do seu modelo de negócios, baseando se em 
-            dados existentes da empresa, fornecer uma tomada de decisões otimizadas.
-            <br/><br/>
+          <p>
+              Nossa ferramenta foca na análise do seu modelo de negócios, baseando se em 
+              dados existentes da empresa, fornecer uma tomada de decisões otimizadas.
+          </p>
+              
+          <p>
             Essas decisões levam em conta o crescimento e escalabilidade do negócio, 
             visando economia, sustentabilidade e lucro como principais características.
-            <br/><br/>
+          </p>
+              
+          <p>
             Deixe as tarefas repetitivas por conta da Arya e concentre-se no que realmente importa, o seu negócio.
-        </p>
+          </p>
+        
           
         </div>
         <Button className={'btn-button'}> Começar agora </Button>
