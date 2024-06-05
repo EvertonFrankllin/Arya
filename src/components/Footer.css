@@ -1,5 +1,5 @@
 .direitos-autorais{
-    padding: 40px 30px;
+    padding: 40px 50px;
     display: flex;
     justify-content: space-between;
     font-size: medium;
@@ -10,7 +10,11 @@
 
 .politicas{
     display: flex;
+    
 }
 .politicas p{
-    padding: 0 10px;
+    padding: 0 20px;
+}
+.politicas a{
+    text-decoration: none;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 
 //Importando componentes
-import Button from './Button';
+import Button from './Botoes/Button';
 
 
 //Impotando estilos

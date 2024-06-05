@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Header.css";
 import ARYA_LOGO from '../img/ARYA_LOGO.svg';
-import Button from './Button';
+import Button from './Botoes/Button';
 
 function handleClick(e) {
   e.preventDefault();

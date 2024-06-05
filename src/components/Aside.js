@@ -1,9 +1,9 @@
 import React from 'react';
 //import Footer from './components/Footer';
 import "./Aside.css";
-import ARYA from '../img/ARYA_LOGO.png';
+import ARYA from '../img/ARYA_LOGO.svg';
 import MOCAP from '../img/mocap-oficial.jpg';
-import Button from './Button';
+import Button from './Botoes/Button';
 
 
 const Aside = () => {
