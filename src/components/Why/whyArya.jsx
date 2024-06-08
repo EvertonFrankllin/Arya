@@ -1,5 +1,10 @@
 import React from 'react'
+
+
 import './whyArya.css';
+
+import Button from '../Botoes/Button';
+
 const whyArya = () => {
   return (
     <section className='reason'>
@@ -51,10 +56,9 @@ const whyArya = () => {
                         </p>
                         </div>
                 </div>
-
-                    
                 
             </div>
+                <Button className={'experimentar'}> Experimente Gratuitamente </Button>
     </section>
   )
 }

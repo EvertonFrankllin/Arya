@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background: linear-gradient(90deg, #ccfed99c, #1ec6e89a);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -25,15 +25,18 @@
     display: flex;
     margin: 0;
     padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin:  0 20px;
 }
 
 .header .nav-list li {
-    margin-left: 50px;
+    margin: 0 20px;
 }
 
 .header .nav-list li a {
     text-decoration: none;
-    color: #CCC;
+    color: #3a5ef2;
     font-weight: bold;
 }
 
@@ -43,22 +46,27 @@
 
 .btn-login{
     outline: none;
-    padding: 10px;
+    padding: 15px;
     border: none;
-    margin-top: -20px;
-}
-
-button.btn-login {
+    margin-top: 20px;
+    font-size: 16px;
     cursor: pointer;
-    width: 80px;
-    border-radius: 50px;
-    background-color: #38b6ff;
-    color: #fff;
+    border-radius: 20px;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: center;
 }
 
-.btn-login:hover{
-    transform:scale(1.1);
+#loginWhite{
+    background-color: #fff !important;
+    color: #3a5ef2 !important;
 }
+
+#experimenteLogin{
+    background-color: #3a5ef2 ;
+    color: #ffffff ;
+}
+
 
 
   /* Responsive Design */

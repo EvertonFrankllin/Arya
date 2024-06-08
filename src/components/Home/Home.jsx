@@ -1,9 +1,9 @@
 import React from 'react';
 //import Footer from './components/Footer';
-import "./Aside.css";
-import ARYA from '../img/ARYA_LOGO.svg';
-import MOCAP from '../img/mocap-oficial.jpg';
-import Button from './Botoes/Button';
+import "./Home.css";
+import ARYA from '../../img/ARYA_LOGO.svg';
+import MOCAP from '../../img/mocap-oficial.jpg';
+import Button from '../Botoes/Button';
 
 
 const Aside = () => {
@@ -17,9 +17,13 @@ const Aside = () => {
 
                     <div className='demonstracao'>
                         <h3>O novo jeito de cuidar do seu negócio</h3>
-                        <p>A IA completa para ajudar a alavancar sua empresa.</p>
-                          <Button className={'btn-agenda'}>Agendar Demonstração</Button>
+                        <p> <code>A IA completa para ajudar a alavancar sua empresa.</code> </p>
                     </div>
+
+                      <div className='botoes'>
+                        <Button id='demo' className={'btn-agenda'}><code>Conheça a Arya</code></Button>
+                        <Button id='experimente' className={'btn-agenda'}>Experimente Gratuitamente</Button>
+                      </div>
             </section>
 
             <section className="center-rigth">

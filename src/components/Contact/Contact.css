@@ -46,7 +46,7 @@
     resize: vertical;
 }
 
-button.btn-send{
+.btn-send{
     padding: 10px;
     width: 100px;
     border-radius: 14px;
@@ -58,7 +58,8 @@ button.btn-send{
     cursor: pointer;
     font-size: 16px;
 }
-button.btn-send:hover{
+
+.btn-send:hover{
     transform: scale(1.1);
     background: linear-gradient(90deg, rgb(43, 177, 255), rgb(56, 182, 255) );
 }

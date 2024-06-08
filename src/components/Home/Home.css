@@ -3,16 +3,20 @@
     display: flex;
     height: 100vh;
     box-shadow: 0px 10px 8px 1px #cccccc2c;
+    background: linear-gradient(90deg, #ccfed9, #1ec7e8);
 }
 .center-left{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
+    
 }
 .center-left h1{
     font-size: 90px;
     font-weight: 600;
+    
 }
+
 .arya img{
     width: 170px;
 }
@@ -37,15 +41,17 @@
 
 .demonstracao h3{
     margin: 0;
-    font-size: 50px;
     font-weight: normal;
     font-style: normal;
+    color:#3a5ef2;
+    font-size: 70px;
 }
 
 .demonstracao p{
     margin: 5px 0;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: normal;
+    color: #555555;
 }
 
 .btn-agenda{
@@ -59,11 +65,29 @@
     transform: scale(1.1);
 }
 
-button.btn-agenda{
+.btn-agenda{
     cursor: pointer;
     width: 230px;
     border-radius: 50px;
-    background-color: #38b6ff;
-    color: #fff;
+    background-color: #ffffff;
+    color: #3a5ef2;
 }
+
+.botoes{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.botoes Button{
+    width: 40%;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+#experimente{
+    background-color: #fff !important ;
+    color: #6e788c !important;
+}
+
+
 

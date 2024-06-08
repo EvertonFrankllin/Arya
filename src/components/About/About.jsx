@@ -1,11 +1,11 @@
 import React from 'react'
 
 //Importando componentes
-import Button from './Botoes/Button';
+import Button from '../Botoes/Button';
 
 
 //Impotando estilos
-import './Section.css';
+import './About.css';
 
 
 const Section = () => {

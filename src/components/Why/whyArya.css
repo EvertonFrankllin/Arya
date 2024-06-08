@@ -56,3 +56,21 @@
     font-size: 18px;
 }
 
+.experimentar{
+    width: 300px;
+    padding: 10px;
+    border-radius: 14px;
+    border: 1px solid #cccccc62;
+    background-color: #38b6ff;
+    background:linear-gradient(90deg,  #38b6ff ,rgb(25, 171, 255));
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 30px  auto 0;
+}
+.experimentar:hover{
+    transform: scale(1.1);
+    background: linear-gradient(90deg, rgb(43, 177, 255), rgb(56, 182, 255) );
+}
+

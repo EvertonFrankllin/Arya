@@ -2,8 +2,8 @@ import React from 'react'
 import { useState } from 'react';
 
 
-import './Contato.css';
-import Button from './Botoes/Button';
+import './Contact.css';
+import Button from '../Botoes/Button';
 
 
 
