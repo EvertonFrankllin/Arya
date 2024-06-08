@@ -19,6 +19,8 @@
 .titulo-h3 h3{
     font-weight: normal;
     font-style: normal;
+    color: #1c2a46;
+    font-weight:500;
 }
 .paragrafo{
     font-family: "Raleway", sans-serif;

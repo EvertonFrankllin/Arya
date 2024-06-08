@@ -1,23 +1,29 @@
 .contato{
     display: flex;
+    width: 70%;
     justify-content: space-between;
-    padding: 200px 100px;
-    
-}
-
-.talk-me{
-    width: 30%;
+    padding: 150px 100px;
+    align-items: center;
     margin: 0 auto;
 }
 
-.talk-me h3{
-    font-size: 45px;
-    font-weight: normal;
+.talk-me{
+    width: 50%;
 }
 
-.form{
+.talk-me h3{
+    font-size: 50px;
+    font-weight: normal;
+    color: #1c2a46;
+    font-weight: 500;
+}
+
+.form{ 
     display: flex;
-    width: 70%;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
 }
 
 .formulario{
@@ -26,14 +32,17 @@
     width: 500px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
+
 .formulario input{
+    color: #1c2a46;
     border: 1px solid #cccccc62;
     outline: none;
     margin: 10px 0;
     padding: 15px;
     border-radius: 20px;
-    width: 400px;
+    width: 450px;
 }
 
 .formulario textarea{
@@ -42,7 +51,7 @@
     margin: 10px 0;
     padding: 15px;
     border-radius: 20px;
-    width: 400px;
+    width: 450px;
     resize: vertical;
 }
 
@@ -63,4 +72,58 @@
     transform: scale(1.1);
     background: linear-gradient(90deg, rgb(43, 177, 255), rgb(56, 182, 255) );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
