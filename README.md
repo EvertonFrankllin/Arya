@@ -3,7 +3,8 @@ Uma IA desenvolvida para auxiliar empresas na sua gestão de negócios, gestão 
 
 ### Pocesso inicial
 
-![image](https://github.com/EvertonFrankllin/Arya/assets/98755634/35edae17-34f4-4f7d-91cc-16eb01b1a2e2)
+![image](https://github.com/EvertonFrankllin/Arya/assets/98755634/e787388a-42c0-497f-8baf-d5ca17ac19b7)
+
 
 
 Nossa IA é pensada com o intúito de facilitar a vida das empresas de modo geral, podendo ter o seu uso personalizado para cada caso e para cada empresa.
