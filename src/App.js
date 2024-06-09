@@ -1,4 +1,6 @@
-import '../src/Styles/App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import '../src/Styles/App.css'; 
 
 // *importando os componentes!
 
@@ -10,19 +12,30 @@ import WhyArya from './components/Why/whyArya';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footter/Footer';
 
+//Import Rotas
+import Login from './components/login/Login';
+
 
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Home />
-      <About />
-      <Plano />
-      <WhyArya />
-      <Contact />
-      <Footer />
-    </div>
+    
+      <Router className="App">
+
+          <Routes>
+            <Route path='/Login' element={<Login /> } ></Route>
+          </Routes>
+
+          <Header />
+          <Home />
+          <About />
+          <Plano />
+          <WhyArya />
+          <Contact />
+          <Footer />
+          
+      </Router>
+    
   );
 }
 

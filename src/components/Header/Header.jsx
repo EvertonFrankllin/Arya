@@ -1,7 +1,12 @@
+import { Link } from 'react-router-dom';
+
+
 import React from 'react'
 import "./Header.css";
 import ARYA_LOGO from '../../img/ARYA_LOGO.svg';
 import Button from '../Botoes/Button';
+
+
 
 function handleClick(e) {
   e.preventDefault();
@@ -26,12 +31,13 @@ const Header = () => {
             <li><a href="#contato" onClick={handleClick}>Contatos</a></li>
             
               <>
-                <Button id={'loginWhite'} className={'btn-login'}>Login</Button>
+              
+                <Link to='/Login'><Button id={'loginWhite'} className={'btn-login'}> Login  </Button></Link>
                 <Button id={'experimenteLogin'} className={'btn-login'}>Experimente Gratuitamente</Button>
               </>
 
         </ul>
-    
+         
     </header>
   )
 }
